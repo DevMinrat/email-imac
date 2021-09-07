@@ -1,10 +1,12 @@
 <mjml>
   <mj-head>
     <mj-title> Apple Watch </mj-title>
-    <mj-style inline="inline"> </mj-style>
+    <mj-style inline="inline">
+      .padding-reset td { padding: 20px 0 0 !important; }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#2b2b2b" padding="0 70px" border-radius="40px">
-    <mj-section>
+    <mj-section padding="0">
       <mj-column
         width="100%"
         background-color="#313131"
@@ -12,6 +14,84 @@
         border-radius="40px 40px 0px 0px"
       >
         <mj-image width="24px" src="assets/images/apple.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="10px 0">
+      <mj-column width="180px" css-class="padding-reset">
+        <mj-text
+          align="center"
+          font-family="Inter, sans-serif"
+          font-weight="600"
+          font-size="16px"
+          line-height="19px"
+          color="#FFFFFF"
+        >
+          Final Cut Pro X
+        </mj-text>
+      </mj-column>
+      <mj-column width="220px">
+        <mj-navbar base-url="#" hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link
+            padding="25px 8px 0"
+            href="#"
+            font-family="Inter, sans-serif"
+            font-size="9px"
+            line-height="11px"
+            color="#ffffff"
+            >Overview</mj-navbar-link
+          >
+          <mj-navbar-link
+            padding="25px 8px 0"
+            href="#"
+            font-family="Inter, sans-serif"
+            font-size="9px"
+            line-height="11px"
+            color="#ffffff"
+            color="#ffffff"
+            >Motion</mj-navbar-link
+          >
+          <mj-navbar-link
+            padding="25px 8px 0"
+            href="#"
+            font-family="Inter, sans-serif"
+            font-size="9px"
+            line-height="11px"
+            color="#ffffff"
+            color="#ffffff"
+            >Tech Specs</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+      <mj-column padding="14px 0 0" width="95px">
+        <mj-button
+          padding="0px"
+          border-radius="16px"
+          background-color="#1890FF"
+          font-family="Inter, sans-serif"
+          font-weight="500"
+          font-size="9px"
+          line-height="11px"
+          color="#FFFFFF"
+          href="#"
+        >
+          Free trial
+        </mj-button>
+      </mj-column>
+      <mj-column padding="14px 0 0" width="70px">
+        <mj-button
+          padding="0px"
+          border-radius="16px"
+          background-color="#1890FF"
+          font-family="Inter, sans-serif"
+          font-weight="500"
+          font-size="9px"
+          line-height="11px"
+          color="#FFFFFF"
+          href="#"
+        >
+          Buy
+        </mj-button>
       </mj-column>
     </mj-section>
   </mj-body>
