@@ -2,10 +2,17 @@
   <mj-head>
     <mj-title> Apple Watch </mj-title>
     <mj-style inline="inline">
-      .padding-reset td { padding: 20px 0 0 !important; }
+      .header-logo td { padding: 20px 0 0 !important; } .intro-link td {padding:
+      0 !important;} .intro-link tr td td {padding: 10px !important;} .up-to {
+      font-family: Inter, sans-serif; font-size: 10px; line-height: 12px; color:
+      #ffffff} .count { font-family: Inter, sans-serif; font-weight: bold;
+      font-size: 36px; line-height: 44px; color: #ffffff; } .footer-link td
+      {padding: 0px !important;} .footer-link-text a {font-family: Inter,
+      sans-serif !important; font-size: 12px !important; line-height: 18px
+      !important; color: #FFFFFF !important;}
     </mj-style>
   </mj-head>
-  <mj-body background-color="#2b2b2b" padding="0 70px" border-radius="40px">
+  <mj-body>
     <mj-section padding="0">
       <mj-column
         width="100%"
@@ -17,82 +24,402 @@
       </mj-column>
     </mj-section>
 
-    <mj-section padding="10px 0">
-      <mj-column width="180px" css-class="padding-reset">
-        <mj-text
-          align="center"
-          font-family="Inter, sans-serif"
-          font-weight="600"
-          font-size="16px"
-          line-height="19px"
-          color="#FFFFFF"
-        >
-          Final Cut Pro X
-        </mj-text>
-      </mj-column>
-      <mj-column width="220px">
-        <mj-navbar base-url="#" hamburger="hamburger" ico-color="#ffffff">
-          <mj-navbar-link
-            padding="25px 8px 0"
-            href="#"
+    <mj-wrapper background-color="#141415" padding="0">
+      <mj-section padding="10px 0">
+        <mj-column width="180px" css-class="header-logo">
+          <mj-text
+            align="center"
             font-family="Inter, sans-serif"
+            font-weight="600"
+            font-size="16px"
+            line-height="19px"
+            color="#FFFFFF"
+          >
+            Final Cut Pro X
+          </mj-text>
+        </mj-column>
+        <mj-column width="220px">
+          <mj-navbar base-url="#" hamburger="hamburger" ico-color="#ffffff">
+            <mj-navbar-link
+              padding="25px 8px 0"
+              href="#"
+              font-family="Inter, sans-serif"
+              font-size="9px"
+              line-height="11px"
+              color="#ffffff"
+              >Overview</mj-navbar-link
+            >
+            <mj-navbar-link
+              padding="25px 8px 0"
+              href="#"
+              font-family="Inter, sans-serif"
+              font-size="9px"
+              line-height="11px"
+              color="#ffffff"
+              color="#ffffff"
+              >Motion</mj-navbar-link
+            >
+            <mj-navbar-link
+              padding="25px 8px 0"
+              href="#"
+              font-family="Inter, sans-serif"
+              font-size="9px"
+              line-height="11px"
+              color="#ffffff"
+              color="#ffffff"
+              >Tech Specs</mj-navbar-link
+            >
+          </mj-navbar>
+        </mj-column>
+        <mj-column padding="14px 0 0" width="95px">
+          <mj-button
+            padding="0px"
+            border-radius="16px"
+            background-color="#1890FF"
+            font-family="Inter, sans-serif"
+            font-weight="500"
             font-size="9px"
             line-height="11px"
-            color="#ffffff"
-            >Overview</mj-navbar-link
-          >
-          <mj-navbar-link
-            padding="25px 8px 0"
+            color="#FFFFFF"
             href="#"
+          >
+            Free trial
+          </mj-button>
+        </mj-column>
+        <mj-column padding="14px 0 0" width="70px">
+          <mj-button
+            padding="0px"
+            border-radius="16px"
+            background-color="#1890FF"
             font-family="Inter, sans-serif"
+            font-weight="500"
             font-size="9px"
             line-height="11px"
-            color="#ffffff"
-            color="#ffffff"
-            >Motion</mj-navbar-link
-          >
-          <mj-navbar-link
-            padding="25px 8px 0"
+            color="#FFFFFF"
             href="#"
-            font-family="Inter, sans-serif"
-            font-size="9px"
-            line-height="11px"
-            color="#ffffff"
-            color="#ffffff"
-            >Tech Specs</mj-navbar-link
           >
-        </mj-navbar>
-      </mj-column>
-      <mj-column padding="14px 0 0" width="95px">
-        <mj-button
-          padding="0px"
-          border-radius="16px"
-          background-color="#1890FF"
-          font-family="Inter, sans-serif"
-          font-weight="500"
-          font-size="9px"
-          line-height="11px"
-          color="#FFFFFF"
-          href="#"
-        >
-          Free trial
-        </mj-button>
-      </mj-column>
-      <mj-column padding="14px 0 0" width="70px">
-        <mj-button
-          padding="0px"
-          border-radius="16px"
-          background-color="#1890FF"
-          font-family="Inter, sans-serif"
-          font-weight="500"
-          font-size="9px"
-          line-height="11px"
-          color="#FFFFFF"
-          href="#"
-        >
-          Buy
-        </mj-button>
-      </mj-column>
-    </mj-section>
+            Buy
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#414141"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 0 0">
+        <mj-column>
+          <mj-text padding="0">
+            <h1
+              style="
+                font-family: Inter, sans-serif;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 58px;
+                text-align: center;
+                color: #ffffff;
+              "
+            >
+              Our most stunning take on post-production.
+            </h1>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="0">
+        <mj-column width="190px" css-class="intro-link">
+          <mj-button
+            align="center"
+            background-color="transparent"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="15px"
+            line-height="18px"
+            color="#51ACFF"
+            href="#"
+          >
+            Try Final Cut Pro free
+            <img
+              style="padding-left: 3px"
+              width="7px"
+              src="assets/images/arrow-sm.png"
+              alt=""
+            />
+          </mj-button>
+        </mj-column>
+        <mj-column width="100px" css-class="intro-link">
+          <mj-button
+            align="center"
+            background-color="transparent"
+            font-family="Inter, sans-serif"
+            font-weight="500"
+            font-size="15px"
+            line-height="18px"
+            color="#51ACFF"
+            href="#"
+          >
+            Buy now
+            <img
+              style="padding-left: 3px"
+              width="7px"
+              src="assets/images/arrow-sm.png"
+              alt=""
+            />
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-image width="550px" src="assets/images/imac.png" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="50px 0 20px">
+        <mj-column>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#414141"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 0px 0 40px">
+        <mj-column width="390px" border-left="4px solid #EDBB99">
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="24px"
+            line-height="29px"
+            color="#ffffff"
+          >
+            Editing, audio, motion graphics, and delivery.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="20px 0px 0 40px">
+        <mj-column width="390px" border-left="4px solid #EDBB99">
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="24px"
+            line-height="29px"
+            color="#ffffff"
+          >
+            Color grading, HDR support, and ProRes RAW.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="20px 0px 0 40px">
+        <mj-column width="390px" border-left="4px solid #EDBB99">
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="24px"
+            line-height="29px"
+            color="#ffffff"
+          >
+            Metal engine coming this fall. Try it just now.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="20px 0px 0 40px">
+        <mj-column width="390px" border-left="4px solid #EDBB99">
+          <mj-text
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="24px"
+            line-height="29px"
+            color="#ffffff"
+          >
+            360° video editing and VR headset playback.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="30px 0 20px">
+        <mj-column>
+          <mj-divider
+            border-width="1px"
+            border-style="solid"
+            border-color="#414141"
+          />
+        </mj-column>
+      </mj-section>
+
+      <mj-section
+        padding="100px 100px"
+        background-url="assets/images/speed-meter.png"
+        background-repeat="no-repeat"
+        background-size="cover"
+      >
+        <mj-column padding="0 0 20px" width="120px" css-class="test">
+          <mj-text padding="0 0 16px" align="center">
+            <div class="up-to">up to</div>
+            <div class="count">3.2x</div>
+            <div class="up-to">faster render</div>
+          </mj-text>
+          <mj-image
+            align="center"
+            width="96px"
+            padding="0"
+            src="assets/images/bottom-line.png"
+            alt=""
+          />
+        </mj-column>
+        <mj-column padding="0 0 20px" width="120px">
+          <mj-text padding="0 0 16px" align="center">
+            <div class="up-to">up to</div>
+            <div class="count">8+</div>
+            <div class="up-to">streams of 4k video</div>
+          </mj-text>
+          <mj-image
+            align="center"
+            width="96px"
+            padding="0"
+            src="assets/images/bottom-line.png"
+            alt=""
+          />
+        </mj-column>
+        <mj-column padding="0 0 20px" width="120px">
+          <mj-text padding="0 0 16px" align="center">
+            <div class="up-to">up to</div>
+            <div class="count">2x</div>
+            <div class="up-to">faster running time</div>
+          </mj-text>
+          <mj-image
+            align="center"
+            width="96px"
+            padding="0"
+            src="assets/images/bottom-line.png"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#313131">
+      <mj-section>
+        <mj-group width="180px">
+          <mj-column padding="0">
+            <mj-button
+              href="#"
+              background-color="transparent"
+              padding="0"
+              width="60px"
+              align="right"
+            >
+              <img src="assets/images/facebook.png" alt="" width="20px" />
+            </mj-button>
+          </mj-column>
+          <mj-column padding="0">
+            <mj-button
+              width="60px"
+              href="#"
+              background-color="transparent"
+              padding="0"
+            >
+              <img src="assets/images/twitter.png" alt="" width="25px" />
+            </mj-button>
+          </mj-column>
+          <mj-column padding="0">
+            <mj-button
+              width="60px"
+              href="#"
+              background-color="transparent"
+              padding="0"
+              align="left"
+            >
+              <img src="assets/images/instagram.png" alt="" width="23px" />
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-column>
+          <mj-text
+            align="center"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="12px"
+            line-height="18px"
+            color="#7D7D7D"
+          >
+            All rights reserved. Copyright © 2019 Apple Inc. 1 Infinite Loop,
+            Cupertino, CA 95014
+          </mj-text>
+          <mj-text
+            align="center"
+            font-family="Inter, sans-serif"
+            font-weight="bold"
+            font-size="12px"
+            line-height="18px"
+            color="#7D7D7D"
+          >
+            This email was sent to hello@you.com because you indicated that
+            you’d like to stay up to date on the latest features, services,
+            support info and offers for Final Cut Pro. You can unsubscribe from
+            Final Cut Pro emails
+            <a style="color: #51acff; text-decoration: none" href="#">here</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding="20px 110px">
+        <mj-column css-class="footer-link" width="90px">
+          <mj-button
+            css-class="footer-link-text"
+            href="#"
+            background-color="transparent"
+            padding="0"
+            >Privacy Policy</mj-button
+          >
+        </mj-column>
+        <mj-column css-class="footer-link" width="110px">
+          <mj-button
+            css-class="footer-link-text"
+            href="#"
+            background-color="transparent"
+            padding="0"
+            >Terms & Conditions</mj-button
+          >
+        </mj-column>
+        <mj-column css-class="footer-link" width="60px">
+          <mj-button
+            css-class="footer-link-text"
+            href="#"
+            background-color="transparent"
+            padding="0"
+            >Support</mj-button
+          >
+        </mj-column>
+        <mj-column css-class="footer-link" width="60px">
+          <mj-button
+            css-class="footer-link-text"
+            href="#"
+            background-color="transparent"
+            padding="0"
+            >Account</mj-button
+          >
+        </mj-column>
+        <mj-column css-class="footer-link" width="60px">
+          <mj-button
+            css-class="footer-link-text"
+            href="#"
+            background-color="transparent"
+            padding="0"
+            >Subscribe</mj-button
+          >
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
   </mj-body>
 </mjml>
